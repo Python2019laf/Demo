@@ -1,0 +1,27 @@
+#绘制奥运五环
+import turtle
+turtle.width(10)
+turtle.color("blue")
+turtle.circle(50)
+turtle.penup()#命令后面以()结尾，请注意！！！并且输入命令和符号是英文符号，切记！！
+turtle.goto(160,0)
+turtle.pendown()
+turtle.color("black")
+turtle.circle(50)
+turtle.penup()
+turtle.goto(320,0)
+turtle.pendown()
+turtle.color("red")
+turtle.circle(50)
+turtle.penup()
+turtle.goto(80,-40)
+turtle.pendown()
+turtle.color("yellow")
+turtle.circle(50)
+turtle.penup()
+turtle.goto(240,-40)
+turtle.pendown()
+turtle.color("green")
+turtle.circle(50)
+'''画出来的奥运五环整体偏右原因：是以第一个五环为基准的，而第一个圆默认放在中间
+   若将第一层的中间的那个圆作为基准，则可以调整整个五环的位置'''
